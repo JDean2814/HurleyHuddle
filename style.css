@@ -6,7 +6,7 @@
 @font-face {
     font-family: 'Graduate';
     src: url(./fonts/Graduate-Regular.ttf);
-}*/
+}
 
 body {
     margin: 0;
@@ -189,7 +189,7 @@ footer {
 
 footer address {
     font-size: clamp(.8rem, 1vw, 2rem);
-}
+}*/
 
 #social-link {
     display: flex;
