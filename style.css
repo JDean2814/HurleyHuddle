@@ -189,7 +189,7 @@ footer {
 
 footer address {
     font-size: clamp(.8rem, 1vw, 2rem);
-}*/
+}
 
 #social-link {
     display: flex;
@@ -277,3 +277,4 @@ footer address {
         display: none;
     }
 }
+*/
