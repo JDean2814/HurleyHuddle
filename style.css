@@ -1,4 +1,7 @@
-/**/
+ /* {
+    outline: 1px solid red;
+}*/
+
 @font-face {
     font-family: 'Graduate';
     src: url(./fonts/Graduate-Regular.ttf);
@@ -211,6 +214,11 @@ footer address {
         flex-direction: column;
     }
 
+    #links :nth-child(1) { order: 1; }
+    #links :nth-child(2) { order: 2; }
+    #links :nth-child(3) { order: 4; }
+    #links :nth-child(4) { order: 3; }
+
     .link-cards {
         height: 50vw;
     }
@@ -252,7 +260,7 @@ footer address {
     }
 
     .nav-list {
-        display: flex;
+        display: none;
         width: 100%;
         flex-direction: column;
         background-color: #999999;
@@ -266,11 +274,10 @@ footer address {
     }
 
     .nav-list.active {
-        display: none;
+        display: flex;
     }
 
     .nav-item.active {
         display: none;
     }
 }
-
